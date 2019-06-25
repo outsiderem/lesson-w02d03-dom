@@ -1,0 +1,35 @@
+.innerText()
+sets or returns the text content of the specified node, and all its descendants.
+
+
+.innerHTML()
+used to get or change any HTML element, including <html> and <body>
+
+
+.append()
+ inserts a set of Node objects or DOMString objects after the last child of the ParentNode.
+
+
+.appendChild()
+appends a node as the last child of a node.
+
+
+.prepend()
+ inserts a set of Node objects or DOMString objects before the first child of the ParentNode. 
+
+
+.after()
+inserts specified content after the selected elements.
+
+.before()
+ Insert content, specified by the parameter, before each element in the set of matched elements.
+
+
+.insertAdjacentHTML()
+ parses the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at a specified position. It does not reparse the element it is being used on and thus it does not corrupt the existing elements inside the element. This avoiding the extra step of serialization make it much faster than direct innerHTML manipulation.
+
+
+.replaceWith()
+
+
+.remove()

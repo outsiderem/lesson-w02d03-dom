@@ -1,10 +1,4 @@
-# Lab: DOM Access
-
-## DOM Detective
-
-Open up [Girl Develop It](https://www.girldevelopit.com/) in Chrome or Firefox, and open up the JavaScript console (CMD + Option + J on Macs).
-
-Use DOM access methods (e.g. `document.querySelector`) to find the following parts of the page. You probably first want to use Inspect Element to figure out what their tag names, classes, and IDs are.
+Use DOM access methods (e.g. document.querySelector) to find the following parts of the page. You probably first want to use Inspect Element to figure out what their tag names, classes, and IDs are.
 
 - Every image on the page
 
@@ -42,3 +36,7 @@ document.querySelectorAll('.stats img');
 - BONUS: all the dots in the map
 
 document.querySelectorAll('circle');
+
+
+
+
